@@ -1,0 +1,77 @@
+# Prerequisites
+*.d
+
+# Object files
+*.o
+*.ko
+*.obj
+*.elf
+*.axf
+
+# Linker output
+*.ilk
+*.map
+*.exp
+*.lst
+*.i
+*.cod
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+*.bin
+
+# Debug files
+_build/
+*.dSYM/
+*.su
+*.idb
+*.pdb
+*.crf
+
+# Other files
+*.pack
+*.sct
+*.lnp
+*.tmp
+*.TMP
+*~
+
+# J-Link
+JLinkLog.txt
+
+# Kernel Module Compile Results
+*.mod*
+*.cmd
+.tmp_versions/
+modules.order
+Module.symvers
+Mkfile.old
+dkms.conf
+
+# Others
+/MDK-ARM/OTA
+/MDK-ARM/OTA.uvguix.*
+/MDK-ARM/startup_stm32l433xx.lst
+/MDK-ARM/*.scvd
+/MDK-ARM/DebugConfig
