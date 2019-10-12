@@ -656,6 +656,13 @@
               </Aads>
             </GroupArmAds>
           </GroupOption>
+          <Files>
+            <File>
+              <FileName>main.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Bootloader\Src\main.c</FilePath>
+            </File>
+          </Files>
         </Group>
         <Group>
           <GroupName>Drivers/BSP</GroupName>
@@ -754,7 +761,7 @@
             <InvalidFlash>1</InvalidFlash>
           </TargetStatus>
           <OutputDirectory>OTA\</OutputDirectory>
-          <OutputName>OTA</OutputName>
+          <OutputName>boot</OutputName>
           <CreateExecutable>1</CreateExecutable>
           <CreateLib>0</CreateLib>
           <CreateHexFile>1</CreateHexFile>
@@ -1041,7 +1048,7 @@
               <MiscControls></MiscControls>
               <Define>USE_HAL_DRIVER,STM32L431xx,DEBUG</Define>
               <Undefine></Undefine>
-              <IncludePath>..\Bootloader\Inc;..\Drivers\CMSIS\Include;..\Drivers\CMSIS\Device\ST\STM32L4xx\Include;..\Drivers\STM32L4xx_HAL_Driver\Inc;..\Drivers\STM32L4xx_HAL_Driver\Inc\Legacy</IncludePath>
+              <IncludePath>..\Bootloader\Inc;..\Drivers\BSP\Inc;..\Drivers\CMSIS\Include;..\Drivers\CMSIS\Device\ST\STM32L4xx\Include;..\Drivers\STM32L4xx_HAL_Driver\Inc;..\Drivers\STM32L4xx_HAL_Driver\Inc\Legacy</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -1430,6 +1437,13 @@
         </Group>
         <Group>
           <GroupName>BootLoader</GroupName>
+          <Files>
+            <File>
+              <FileName>main.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Bootloader\Src\main.c</FilePath>
+            </File>
+          </Files>
         </Group>
         <Group>
           <GroupName>Drivers/BSP</GroupName>
